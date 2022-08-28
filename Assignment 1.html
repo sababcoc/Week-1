@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <label for="assignment1">What language was created to add interactivity to the Web? :<input class="assignment" type="text" /></label><br />
+    <label for="Prompt">What libary do you prefer between Vue, React or jQuery<input class="Prompt" type="text" /></label><br />
+    <script>
+
+        alert(document.querySelector(".assignment"));
+        var txtCourse = document.querySelector('.assignment');
+        txtCourse.addEventListener('focusout', (event) => { alert(txtCourse.value) })
+
+        alert(document.querySelector(".Prompt"));
+        var txtprompt = document.querySelector('.Prompt');
+        txtprompt.addEventListener('focusout', (event) => { alert(txtprompt.value) })
+    </script>
+</body>
+</html>
